@@ -18,7 +18,7 @@ console.log(string01.includes('jargon'));
 
 //Use console.log() and escape characters to print the following pattern.
 
-console.log('1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125');
+console.log('1\t1\t1\t1\t1\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125');
 
 /*Use substr to slice out the phrase because because because from the
 following sentence:'You cannot end a sentence with because because
