@@ -36,14 +36,14 @@ or Summer. If the user input is :
 */
 
 let month;
-month = prompt('The Month','').toUpperCase();
-if(month == 'September'|| month == 'October' || month == 'November'){
+month = prompt('The Month','').toLowerCase();
+if(month == 'september'|| month == 'october' || month == 'november'){
     console.log('Autmn');
-}else if(month == 'December'|| month == 'January' || month == 'February'){
+}else if(month == 'december'|| month == 'january' || month == 'february'){
     console.log('Winter');
-}else if(month == 'March'|| month == 'April' || month == 'May'){
+}else if(month == 'march'|| month == 'april' || month == 'may'){
     console.log('Spring');
-}else if(month == 'June'|| month == 'July' || month == 'August'){
+}else if(month == 'june'|| month == 'july' || month == 'august'){
     console.log('Summer');
 }else{
     console.log('Incorrect Month');
